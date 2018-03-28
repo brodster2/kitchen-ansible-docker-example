@@ -2,7 +2,14 @@
 
 ```
 git clone https://github.com/mheap/kitchen-ansible-docker-example
+
 cd kitchen-ansible-docker-example
-bundle install --path vendor/bundle
-bundle exec kitchen test
+
+gem install test-kitchen 
+gem install kitchen-ansible
+gem install kitchen-docker
 ```
+
+# Requirements
+
+Successful tested with ruby 2.5.0.
