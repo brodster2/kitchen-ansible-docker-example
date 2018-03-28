@@ -1,8 +1,8 @@
 # Quickstart
 
-```
-git clone https://github.com/mheap/kitchen-ansible-docker-example
+Clone repository.
 
+```
 cd kitchen-ansible-docker-example
 
 gem install test-kitchen
